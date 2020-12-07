@@ -14,7 +14,6 @@ const Pagina404 = () => (<div>Página 404</div>)
 ReactDOM.render(
   <BrowserRouter>
 	<Switch>
-	    /* exact sera usado para pagina exata */
             <Route path="/" component={Home} exact />
 	    <Route path="/cadastro/video" component={CadastroVideo} />
 	    <Route path="/cadastro/categoria" component={CadastroCategoria} />
